@@ -1,7 +1,7 @@
 {
   "name": "Bowling Game",
   "description": "My elevator pitch goes here",
-  "launch_path": "index.html",
+  "launch_path": "/index.html",
   "icons": {
     "128": ""
   },
@@ -10,5 +10,17 @@
     "url": "http://your-homepage-here.org"
   },
   "default_locale": "en",
-  "fullscreen":"true"
+  "fullscreen":"true",
+  "installs_allowed_from": [
+  "https://marketplace.firefox.com",
+  "https://marketplace.example.com"
+ ],
+ "messages": [
+  { "telephony-new-call": "/dialer/index.html#keyboard-view" },
+  { "bluetooth-dialer-command": "/dialer/index.html#keyboard-view" },
+  { "headset-button": "/dialer/index.html#keyboard-view" },
+  { "notification": "/dialer/index.html#keyboard-view" },
+  { "alarm": "/facebook/fb_sync.html" }
+ ],
+ "orientation": ["portrait"],
 }
