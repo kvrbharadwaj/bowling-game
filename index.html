@@ -1,4 +1,32 @@
-bowling-game
-============
-
-game
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Space Bowling Game</title>
+ <meta charset="UTF-8">
+ <link href="game.css" rel="stylesheet"/>
+ <script type="text/Javascript" src="jQuery.js"></script>
+ <script type="text/Javascript" src="game.js"></script>
+</head>
+<body>
+ <div id="game">
+  <div id="gameUI">
+   <div id="gameIntro">
+    <h1>Space Bowling Game</h1>
+	<p>This is an awesome game</p>
+	<p><a id="gamePlay" class="button" href="">Play</a></p>
+   </div>
+   <div id="gameStats">
+    <p>Asteroids:<span id="gameRemaining"></span></p>
+	<p>Clicks:<span class="gameScore"></span></p>
+	<p><a class="gameReset" href="">Reset</a></p>
+   </div>
+   <div id="gameComplete">
+    <h1 id="loseOrWin"></h1>
+    <p id="praise"><span class="gameScore"></span> clicks</p>
+    <p><a class="gameReset button" href="">Play Again</a></p>
+   </div>
+  </div>
+  <canvas id="gameCanvas" width="350px" height="500px"></canvas>
+ </div>
+</body>
+</html> 
