@@ -23,4 +23,5 @@
   { "alarm": "/facebook/fb_sync.html" }
  ],
  "orientation": ["portrait"],
+ "Content-Type: application/x-web-app-manifest+json"
 }
